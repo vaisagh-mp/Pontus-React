@@ -1,0 +1,58 @@
+.embrace-main {
+    background: #000;
+    height: 120vh;
+    place-content: center;
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* .embrace button {
+    width: 30%;
+    height: 7rem;
+    margin-top: 4rem;
+    text-align: center;
+    background: transparent;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    padding: 10px 24px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+} */
+
+.quote-btn img {
+    margin-right: 2rem;
+}
+
+.embrace {
+    padding: 20px 150px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.embrace h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 50px;
+    letter-spacing: 1.5px;
+}
+
+@media(max-width:767px){
+    .embrace{
+        padding: 0 !important;
+    }
+
+    .embrace-main{
+        height: 100%;
+    }
+    .embrace h2 {
+        font-size: 22px;
+    }
+}

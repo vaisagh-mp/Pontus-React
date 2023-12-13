@@ -1,0 +1,81 @@
+.explore-main{
+
+    background-image: url(../../../assets/Explore-bg.png);background-position: center;background-repeat: no-repeat;background-size: cover;background-color: #000;
+}
+
+
+
+
+
+.form-field-main {
+    display: block;
+    margin-top: 1rem;
+    max-width: 100%;
+}
+
+.form-field {
+    margin-top: 3rem;
+}
+
+.contact-form {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.form-field input {
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    padding: 1.7rem .75rem;
+    font-weight: 400;
+    line-height: 1.5;
+    appearance: none;
+    overflow: visible;
+
+}
+
+/* .form-submit button {
+    width: 50%;
+    margin-top: 5rem;
+    text-align: center;
+    background: transparent;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    padding: 10px 24px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px; 
+    font-weight: 400; 
+} */
+
+.explore-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore-img img{
+    width: 100%;
+}
+
+.explore-btm{padding: 100px 0;background-color: #000;}
+
+@media(max-width:767px){
+    .explore-left{
+        margin-bottom: 50px;
+    }
+    .explore-btn{
+        width: max-content;
+        margin: auto;
+    }
+
+    .explore-btm{
+       display: none;
+    }
+}

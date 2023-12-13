@@ -1,0 +1,52 @@
+.get-quote-main {
+    background-color: #000;
+}
+
+.quote-content{
+    padding-top: 50px;
+}
+
+/* .quote-content h2 {
+    color: #fff;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+} */
+
+/* .quote-content button{
+    width: 43%;
+    height: 6rem;
+    margin-top: 2rem;
+    text-align: center;
+    background: transparent;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    padding: 10px 24px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px; 
+    font-weight: 400; 
+} */
+
+.quote-btn img {
+    margin-right: 2rem;
+}
+
+.location-detail iframe{
+    width: 100%;
+    height: 30rem;
+    
+}
+
+.get-quote{
+    border-bottom: 1px solid #555;
+}
+
+
+@media(max-width:767px){
+    .quote-content{padding-top: 0;margin-bottom: 50px;}
+    .get-quote{padding: 0 !important;}
+    .quote-btn{width: max-content;margin: auto;}
+    .quote-btn button{margin-top: 20px !important;}
+}

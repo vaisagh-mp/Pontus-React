@@ -1,0 +1,52 @@
+.whatwedo-main{
+    background: #F1F1F1;
+    cursor: url(../../../assets/getSpotted.png),auto;
+}
+
+.whatwedo .col-lg-4,.whatwedo .col-lg-8{margin-bottom: 80px;}
+
+.get-spot-left{border-radius: 180px;overflow: hidden;}
+.get-spot-left img{
+   width: 100% !important;
+}
+.get-spot-right{border-radius: 180px;overflow: hidden;}
+.get-spot-right img{
+  width: 100%;
+}
+
+.right-sec,.left-sec {display: flex;align-items: center;}
+.left-sec .wwd-content{padding-right: 80px;}
+
+.right-sec p{
+    color: #1A1A1A;
+    text-align: justify;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    
+}
+
+.wwd-content .sec-title h2{
+    color: #1a1a1a !important;
+  
+}
+
+.right-sec .abt-btn, .left-sec .abt-btn {
+    color: #1A1A1A !important;
+    border: 1px solid #1A1A1A;
+    
+}
+
+/* Responsive */
+@media(max-width:767px){
+    .get-spot-left,.get-spot-right{width: 75%;
+        margin: auto;
+      }
+    .left-sec .wwd-content{padding-right: 0;}
+    .wwd-btn{width: max-content;margin: auto;}
+    .whatwedo{padding: 0 15px !important;}
+    .whatwedo .col-lg-4, .whatwedo .col-lg-8 {
+        margin-bottom: 50px !important;
+      }
+}

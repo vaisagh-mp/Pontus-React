@@ -1,0 +1,32 @@
+.whitestep-main{
+    position: relative;
+    padding: 0 !important;
+}
+
+.whitestep-wrapper{
+    display: flex;
+    position: absolute;
+    width: 75%;
+    bottom: 0;
+    right: 0;
+    align-items: end;
+}
+
+.whitestep{
+    float: left;
+    width: 33.33%;
+    background-color: #fff;
+}
+
+#whitestep-1{
+    height: 30px;
+
+}
+#whitestep-2{
+    height: 61px;
+
+}
+#whitestep-3{
+    height: 94px;
+
+}

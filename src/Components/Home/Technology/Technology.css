@@ -1,0 +1,63 @@
+.technology {
+    background: #000;
+}
+
+.tech-row {
+    padding: 20px 0;
+    width: 80%;
+}
+
+.tech-logo-colm {
+    background: #fff;
+    padding: 25px 0;
+    
+}
+
+.tech-content-colm h3 {
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+.tech-content-colm {
+    background: #17A5FF;
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.t-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.t-logo img{
+    width: 100%;
+
+}
+
+.tech-right{
+    display: flex;
+    justify-content: end;
+}
+
+
+.technolog-mobile{background-color: #000;padding: 30px !important;}
+.technolog-mobile .container{padding: 0 !important;}
+.tech-mb-item-header{padding: 30px 15px;background-color: #17A5FF;}
+.tech-mb-item-header h3{color: #ffff;font-weight: 600;font-size: 20px;text-align: center;}
+.tech-mb-item-card{padding: 15px 0;background-color: #fff;}
+.tech-mb .swiper-slide{background-color: #000;padding: unset !important;width: 100% !important;height: unset !important;border-radius: 0 !important;}
+.tech-mb .swiper-slide img{width: 100% !important;height: auto !important;}
+
+@media(min-width:992px){
+    .technolog-mobile{display: none;}
+}
+@media(max-width:991px){
+    .technology{display: none;}
+}

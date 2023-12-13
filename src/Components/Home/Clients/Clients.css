@@ -1,0 +1,104 @@
+.clients-main {
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 0.91%, #D9D9D9 62.47%);
+    padding-bottom: 220px;
+}
+
+.clients {
+    border-radius: 30px;
+    background: #000;
+    padding: 40px !important;
+
+}
+
+.clients-wrapper {
+    padding: 60px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+
+}
+
+.client-logo {
+    padding: 20px;
+    display: flex;
+    width: 18%;
+    align-items: center;
+    justify-content: center;
+}
+
+.client-logo img {
+    filter: grayscale(100%);
+    
+}
+
+.client-logo img:hover,
+.client-logo img:focus {
+    filter: none;
+}
+
+.mbl-client {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.client-mbl-wrapper {
+    display: flex;
+    width: 1200px;
+    user-select: none;
+    animation: scrollAnimation 30s linear infinite;
+    
+}
+
+.client-mbl-logo{
+    padding: 5px;
+}
+
+.client-mbl-logo img{
+    border-radius: 10px;
+}
+
+@keyframes scrollAnimation {
+    0% {
+        transform: translateX(0);
+        
+    }
+
+    100% {
+        transform: translateX(-100%);
+        
+    }
+}
+
+
+
+@media(max-width:767px) {
+    .clients-main {
+        padding-bottom: 30px;
+    }
+
+    .clients-wrapper {
+        padding: 0;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .clients {
+        padding: 30px 20px !important;
+    }
+
+    .client-logo {
+        width: 45%;
+        padding: 20px 0 !important;
+    }
+
+    #client-sub-title{
+        color: #000;
+    }
+}
