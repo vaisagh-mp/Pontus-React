@@ -93,7 +93,7 @@ function Clients() {
   }, []);
 
   return (
-    <>
+    <> 
       {!isMobile ? (
         <section className='clients-main'>
           <Container className='clients'>
